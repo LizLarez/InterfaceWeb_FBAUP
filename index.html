@@ -110,7 +110,7 @@
     </div>
 
     <!-- bike card 1 -->
-      <div>
+    <div>
       <div class="bikecontainer">
         <i class="far fa-heart" onclick="btnClick(this);"></i>
         <a href="https://www.decathlon.pt/bicicleta-trekking-900e-id_8399929.html" target="_blank"> <img src="images/bike1.jpg" alt=" "></a>   
@@ -131,7 +131,7 @@
     <div>
       <div class="bikecontainer">
         <i class="far fa-heart" onclick="btnClick(this);"></i>
-            <a href="https://www.decathlon.pt/bicicleta-riverside-500-id_8405208.html" target="_blank"> <img src="images/bike2.jpg" alt=" "></a>   
+        <a href="https://www.decathlon.pt/bicicleta-riverside-500-id_8405208.html" target="_blank"> <img src="images/bike2.jpg" alt=" "></a>   
         <div class="bikecontainertop">
           <br><p>Bicicleta Trekking Riverside 500 Cinzento/Vermelho B'Twin
           <br>
@@ -145,10 +145,10 @@
     </div>
 
     <!-- bike card 3 -->
-      <div>
+    <div>
       <div class="bikecontainer">
         <i class="far fa-heart" onclick="btnClick(this);"></i>
-            <a href="https://www.decathlon.pt/bicicleta-trek-riverside-900-id_8405264.html" target="_blank"> <img src="images/bike3.jpg" alt=" "></a>   
+        <a href="https://www.decathlon.pt/bicicleta-trek-riverside-900-id_8405264.html" target="_blank"> <img src="images/bike3.jpg" alt=" "></a>   
         <div class="bikecontainertop">
           <br><p>Bicicleta Trekking Riverside 900 B'Twin
           <br>
@@ -175,7 +175,7 @@
       var timesClicked = 0;
 
       function btnClick(elem) {
-        
+
         console.log(elem);
         timesClicked++;
         if (elem.classList.contains('far')) {
@@ -187,6 +187,17 @@
         }
         return true
       }
+    </script>
+
+    <!--Google Analytics-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132870612-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132870612-1');
     </script>
 
   </body>
